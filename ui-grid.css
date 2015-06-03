@@ -1,3 +1,67 @@
-.ui-grid {
-    
+@charset "utf-8";
+.ui-grid{
+  margin-right: auto;
+  margin-left: auto;
+}
+/* 单元行 */
+.ui-grid-row {
+ width:100%;
+}
+/* 单元格 */
+.ui-grid-1,.ui-grid-2,.ui-grid-3,.ui-grid-4,.ui-grid-5,.ui-grid-6,.ui-grid-7,.ui-grid-8,.ui-grid-9,.ui-grid-10,.ui-grid-11,.ui-grid-12 {
+  position: relative;
+  min-height: 1px;
+  float:left;
+  overflow:hidden;
+}
+.ui-grid-1{
+  width: 8.3%;
+}
+.ui-grid-2{
+  width: 16.6%;
+}
+.ui-grid-3{
+  width: 25%;
+}
+.ui-grid-4{
+  width: 33.3%;
+}
+.ui-grid-5{
+  width: 41.6%;
+}
+.ui-grid-6{
+  width: 50%;
+}
+.ui-grid-7{
+  width: 58.3%;
+}
+.ui-grid-8{
+  width: 66.6%;
+}
+.ui-grid-9{
+  width: 75%;
+}
+.ui-grid-10{
+  width: 83.3%;
+}
+.ui-grid-11{
+  width: 91.6%;
+}
+.ui-grid-12{
+  width: 100%;
+}
+/* 清除浮动 */
+.ui-grid:before,
+.ui-grid:after,
+.ui-grid-fluid:before,
+.ui-grid-fluid:after,
+.ui-grid-row:before,
+.ui-grid-row:after {
+  content: " ";
+  display: table;
+}
+.ui-grid:after,
+.ui-grid-fluid:after,
+.ui-grid-row:after {
+  clear: both;
 }
