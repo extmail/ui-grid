@@ -1,10 +1,19 @@
 {
   "name": "rainui-grid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "keywords": [],
   "homepage": "",
-  "author": "sawalanka <sfdss@126.com>",
+  "author": [
+    {
+      "name": "sawalanka",
+      "email" : "sfdss@126.com"
+    },
+    {
+      "name": "NimoChu",
+      "email" : "nimo.jser@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": ""
