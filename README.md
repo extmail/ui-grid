@@ -2,6 +2,8 @@
 
 ---
 
+[在线示例](http://docs.spmjs.io/rui-grid/latest/#示例)
+
 CSS 栅格系统，将一行内容分为 12个格子，通过配置 class 名的方式控制布局。
 
 
