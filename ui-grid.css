@@ -12,7 +12,6 @@
   position: relative;
   min-height: 1px;
   float:left;
-  overflow:hidden;
 }
 .ui-grid-1{
   width: 8.3%;
